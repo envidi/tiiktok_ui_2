@@ -9,7 +9,7 @@ function App() {
             <div className="App">
                 <Routes>
                     {publicRoutes.map((route, index) => {
-                        console.log(route);
+                        
                         const Page = route.component;
                         // const Layout = route.layout === null ? Fragment : DefaultLayout;
                         let Layout = DefaultLayout;
